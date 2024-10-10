@@ -1,0 +1,15 @@
+[package]
+name = "organize"
+version = "0.0.1"
+edition = "2021"
+description = "Organize files in a directory, or reverse the process."
+license = "MIT"
+repository = "https://github.com/zanderlewis/organize"
+keywords = ["organize", "files", "directory", "cli", "tool"]
+authors = ["Zander Lewis <zander@zanderlewis.dev>"]
+
+[dependencies]
+clap = { version = "4.2", features = ["derive"] }
+tokio = { version = "1.32", features = ["full"] }
+chrono = "0.4"
+rayon = "1.5"
