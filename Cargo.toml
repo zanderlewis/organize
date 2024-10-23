@@ -11,6 +11,6 @@ readme = "README.md"
 
 [dependencies]
 clap = { version = "4.2", features = ["derive"] }
-tokio = { version = "1.32", features = ["full"] }
+tokio = { version = "1.41", features = ["full"] }
 chrono = "0.4"
 rayon = "1.5"
