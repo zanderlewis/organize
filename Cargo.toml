@@ -10,7 +10,7 @@ authors = ["Zander Lewis <zander@zanderlewis.dev>"]
 readme = "README.md"
 
 [dependencies]
-clap = { version = "4.2", features = ["derive"] }
+clap = { version = "4.5", features = ["derive"] }
 tokio = { version = "1.41", features = ["full"] }
 chrono = "0.4"
 rayon = "1.5"
